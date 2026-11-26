@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="sensors.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <!-- Lets the xUnit project test internal classes if you choose to use them -->
     <InternalsVisibleTo Include="TemperatureMonitor.Tests" />
   </ItemGroup>
