@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "S1",
+    "Name": "Rack A Inlet",
+    "Location": "Row 1, Rack A",
+    "MinTemp": -10,
+    "MaxTemp": 60,
+    "WarningThreshold": 26,
+    "CriticalThreshold": 30
+  },
+  {
+    "Id": "S2",
+    "Name": "Rack B Inlet",
+    "Location": "Row 1, Rack B",
+    "MinTemp": -10,
+    "MaxTemp": 60,
+    "WarningThreshold": 26,
+    "CriticalThreshold": 30
+  },
+  {
+    "Id": "S3",
+    "Name": "Hot Aisle",
+    "Location": "Row 2",
+    "MinTemp": -10,
+    "MaxTemp": 60,
+    "WarningThreshold": 27,
+    "CriticalThreshold": 32
+  },
+  {
+    "Id": "S4",
+    "Name": "Misconfigured Sensor",
+    "Location": "Row 3",
+    "MinTemp": 60,
+    "MaxTemp": -10,
+    "WarningThreshold": 35,
+    "CriticalThreshold": 30
+  }
+]
